@@ -1,0 +1,247 @@
+@media screen and (max-width: 1199px){
+	.banner .about {
+	    padding: 70px 0;
+	}
+	.banner .profile-img .circle {
+	    height: 130px;
+	    width: 130px;	 
+	}
+	.banner .profile-img h1 {
+	    letter-spacing: 10px;
+	}
+	.banner .profile-img .circle h2 {
+	    font-size: 18px;	 
+	}	
+	.banner .my-profile .education {
+	    padding: 70px 0 0 100px;
+	}
+	.mywork {
+	    padding: 70px 0 60px;
+	}
+	.skills {
+	    padding: 70px 0 70px;
+	}
+	.professional-career {
+	    padding-bottom: 30px;
+	}
+	.professional-career .title {
+	    margin-bottom: 20px;
+	}
+	.professional-career .company-list{		
+    	width: calc(100% / 2 - 30px);    	
+    	padding: 40px 30px;
+	}
+}
+@media screen and (max-width: 991px){
+	p {
+	    font-size: 16px;
+	}
+
+	header ul li a {
+	    font-size: 16px;	 
+	}
+	.banner .about {
+	    padding: 70px 0 60px;
+	}
+	.banner .profile-img {
+	    width: 35%;	    
+	    position: relative;
+	    float: left;
+	}
+	.banner .about-me {
+	    width: 65%;	    
+    	padding-left:40px;
+	}	
+	.banner .profile-img h1 {
+	    color: #fff;
+	    font-size: 34px;
+	    letter-spacing: 2px;
+	}
+	.banner .profile-img h1 span {
+	    display: inline-block;
+	}
+	.banner .profile-img .circle {
+	    height: 110px;
+	    width: 110px;
+    	bottom: 22px;
+	}
+
+	.banner .my-profile {
+	    padding: 0 0 30px 0;
+	}
+	.banner .my-profile .education {
+	    padding:60px 0 0 0;
+	    width: 100%;
+	}
+	.banner .my-profile .education .title{
+		margin-bottom: 30px;
+	}
+	.banner .my-profile .education .education-row h3 {
+	    letter-spacing: 0px;
+	}
+	.banner .my-profile .education .education-row strong {
+	    letter-spacing: 4px;
+	}
+
+	.mywork {
+	    padding: 60px 0 50px;
+	}
+
+	.mywork .owl-carousel {
+	    padding: 0 55px;
+	}
+
+	.skills {
+	    padding: 50px 0;
+	}
+
+	.skills .skill-list h2 {
+	    max-width: 160px;
+	    font-size: 26px;
+	}
+
+	.professional-career .company-list h3 {
+	    margin-bottom: 15px;
+	    font-size: 22px;
+	}
+
+}
+@media screen and (max-width: 767px){
+	header .navbar-toggler{
+		margin: 5px 0 5px auto;
+		background-color: #180244;
+	}
+	header .navbar-collapse ul{
+		flex-direction: column;
+	}
+	header ul li a {
+	    padding: 15px 20px;
+	    display: block;
+	    border-bottom: 1px solid #fff;
+	}
+	.banner .profile-img {
+	    width: 100%;
+	    position: relative;
+	    float: none;
+	    margin: 0 auto;
+	    max-width: 500px;
+	    text-align: center;
+	}
+	.banner .about-me {
+	    width: 100%;
+	    padding: 40px 0 0 0;
+	}
+	.banner .my-profile .education .education-row h3 {
+	    font-size: 26px;
+	}
+	.banner .my-profile .education .education-row strong {
+	    letter-spacing: 1px;
+	}
+	.mywork .title {
+	    margin-bottom: 30px;
+	}
+	.mywork  .img .learn-more .fa-eye-slash {
+	    transform: scale(0);
+	}
+	.mywork  .img .learn-more .fa-eye {
+	    transform: scale(1);
+	}
+	.mywork .img .learn-more .p-name {
+	    opacity: 1;
+	    visibility: visible;
+	    transform: scale(1);
+	    transition: 0.5s all;
+	}
+	.skills {
+	    padding: 50px 0 20px;
+	}
+	.skills .skill-list {
+	    margin-bottom: 25px;
+	}
+
+	.skills .skill-list h2 {
+	    max-width: 100%;
+	    font-size: 26px;
+	    margin-bottom: 7px;
+	}
+	.professional-career .title {
+	    margin-bottom: 0px;
+	}
+	.professional-career .company-list {
+	    padding: 30px 20px;
+	}
+	.professional-career .company-list .company-name h3 {
+	    font-size: 20px;
+	    margin-bottom: 5px;
+	}
+	
+}
+@media screen and (max-width: 639px){
+	.banner .about {
+	    padding: 50px 0 40px;
+	}
+	.banner .profile-img {
+	    text-align: left;
+	}
+	.banner .profile-img .circle {
+	    bottom: -20px;
+	    right: 0px;
+	}
+	.banner .about-me {
+	    padding: 50px 0 0 0;
+	}
+	.banner .my-profile .education .education-row h3 {
+	    font-size: 20px;
+	}
+	.banner .my-profile .education .education-row strong,
+	.banner .my-profile .education .education-row span{
+	    font-size: 14px;
+	}
+
+	.mywork {
+	    padding: 50px 0 40px;
+	}
+	.mywork .owl-carousel {
+	    padding: 0 15px;
+	}
+	.mywork .owl-nav button span {
+	    line-height: 30px;
+	    height: 35px;
+	    width: 35px;
+	}
+	.professional-career .company-list {
+	    padding: 30px 20px;
+	    width: calc(100% / 1 - 30px);	    
+    	margin: 7px 15px;
+	}
+}
+@media screen and (max-width: 575px){
+	.banner .profile-img h1 {
+	    font-size: 28px;
+	}
+	.banner .profile-img .circle {
+	    height: 100px;
+	    width: 100px;
+	}
+	.banner .profile-img .circle h2 {
+	    font-size: 14px;
+	}
+	.banner .about-me {
+	    padding: 30px 0 0 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

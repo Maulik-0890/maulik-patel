@@ -1,0 +1,428 @@
+body {
+    font-family: 'Roboto', sans-serif;  
+    overflow-x: hidden;
+    outline: 0 !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    transition: 0.5s all;
+    outline: none;
+}
+
+button {
+    transition: 0.5s all;
+}
+
+button:focus {
+    outline: none;
+}
+
+p{
+    font-size: 18px;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+.container {
+    max-width: 1400px;
+}
+
+.title{
+    padding-left: 40px;
+    position: relative;    
+    margin-bottom: 15px;    
+    font-size: 34px;
+}
+.title i{
+    margin-right: 8px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+header{    
+    position: relative;    
+    
+}
+
+header .header-top{    
+    background-color: #180244;
+    padding-bottom:5%;
+}
+
+header .navbar-toggler span {
+    width: 27px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: 0.4s;
+    display: block;
+    border-radius: 10px;
+}
+
+header .navbar-toggler[aria-expanded="true"] .bar1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+header .navbar-toggler[aria-expanded="true"] .bar2 {opacity: 0;}
+
+header .navbar-toggler[aria-expanded="true"] .bar3 {
+  transform: rotate(45deg) translate(-6px, -6px);
+}
+
+header ul {
+    justify-content: space-around;
+    background-color:#180244;
+    padding: 0;
+}
+
+header ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 20px 10px;
+    display: inline-block;
+    position: relative;
+}
+
+header ul li a:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    border-bottom: 5px solid #fff;
+    width: 00%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s all;
+}
+
+header ul li a:hover{
+    color: #fff;
+}
+
+header ul li a:hover:after{
+    width: 100%;    
+}
+
+
+header ul li a i{
+    margin-right: 5px;
+}
+
+.banner .about{
+    color: #fff;    
+    padding: 100px 0;
+    background-color: #180244;
+}
+
+.banner .about-me {
+    width: 70%;
+    margin-left: auto;
+    padding-left: 70px;
+}
+
+.banner .about-me .resume {
+    margin: 10px 0 0 0;
+    background-color: #fff;
+    padding: 12px 15px;
+    border-radius: 5px;
+    color: #180244;
+    display: inline-block;
+}
+.banner .about-me .resume:hover{
+    background-color: #180244;
+    color: #fff;    
+    box-shadow: 0 0 8px 1px #fff;
+}
+
+.banner .my-profile{
+    background-color: #ebe7e7;
+    color: #000;
+    padding: 0 0 50px 0;
+}
+
+.banner .profile-img{
+    width: 30%;
+    position: absolute;    
+    top: 0px;    
+    z-index: 99;
+}
+
+.banner .profile-img h1 {
+    color: #000;
+    font-size: 50px;
+    letter-spacing: 12px;
+    margin: 13px 0 0 0;
+}
+
+.banner .profile-img h1 span {
+    font-weight: 300;
+    display: block;
+}
+
+.banner .profile-img .circle {
+    height: 150px;
+    width: 150px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    position: absolute;
+    right: -50px;
+    bottom: 50px;
+}
+
+.banner .profile-img .circle:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    border-top: 5px solid #180244;
+    border-bottom: 5px solid #180244;    
+    
+    animation: rotating 15s linear infinite;
+}
+
+@keyframes  rotating {
+   from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.banner .profile-img .circle h2{
+    font-size: 22px;
+    color: #000;
+}
+
+
+.banner .my-profile .education {
+    padding: 70px 0 0 80px;    
+    margin-left: auto;
+    width: 70%;
+}
+
+.banner .my-profile .education .title{
+    margin-bottom: 25px;
+}
+
+.banner .my-profile .education .education-row{
+    margin-bottom: 30px;
+}
+.banner .my-profile .education .education-row h3{
+    margin-bottom: 10px;    
+    letter-spacing: 1px;
+}
+.banner .my-profile .education .education-row strong{
+    letter-spacing: 8px;
+}
+
+
+.mywork {
+    padding: 100px 0 70px;    
+    background-color: #180244;
+}
+
+.mywork .title{
+    margin-bottom: 50px;
+}
+
+.mywork .owl-carousel{
+    padding: 0 70px;
+}
+
+.mywork  .img {
+    width: 100%;
+    position: relative;
+    padding-bottom: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #dcd5df;
+}
+.mywork  .img .learn-more{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-size: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7e7e7e;    
+}
+.mywork  .img .learn-more i{
+    position: absolute; 
+    transition: 0.5s all;
+}
+
+.mywork .img .learn-more .p-name{
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    padding: 10px 0;
+    background-color: rgba(24,2,68,0.7);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0);
+    transition: 0.5s all;
+}
+
+.mywork  .img .learn-more .fa-eye-slash{
+    transform: scale(1);
+}
+
+.mywork  .img .learn-more:hover .fa-eye-slash{
+    transform: scale(0);
+}
+
+.mywork  .img .learn-more .fa-eye{
+    transform: scale(0);
+}
+
+.mywork  .img .learn-more:hover .fa-eye{
+    transform: scale(1);
+}
+
+.mywork .img .learn-more:hover .p-name{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+
+.mywork .owl-nav button{
+    position: absolute;    
+    z-index: 11; 
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.mywork .owl-nav button span {
+    font-size: 30px;
+    line-height: 37px;
+    color: #180244;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.mywork .owl-nav .owl-prev{
+    left: 0;
+}
+
+.mywork .owl-nav .owl-next{
+    right: 0;
+}
+
+
+.skills{    
+    background-color: #ebe7e7;        
+    padding: 100px 0 80px;
+}
+.skills .skill-list{        
+    margin-bottom: 15px;
+}
+
+.skills .skill-list h2 {
+    max-width: 250px;
+    width: 100%;
+    margin: 0px;
+}
+
+.skills .skill-list ul li {
+    background-color: #dcd5df;
+    padding: 4px 12px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.professional-career {
+    background-color: #ebe7e7;    
+    padding-bottom: 60px;
+}
+
+.professional-career .title{
+    margin-bottom: 50px;
+}
+
+.professional-career .company-lists {
+    margin: 0 -15px;
+}
+
+.professional-career .company-list{
+    background-color: #dcd5df;
+    padding: 50px 60px;
+    width: calc(100% / 3 - 30px);
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.5s all;
+}
+
+.professional-career .company-list:hover{
+    background-color: #d2c9da;       
+    box-shadow: 0px 0px 13px 6px #a2a0a5;    
+    transform: scale(1.04);
+}
+
+.professional-career .company-list .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+.professional-career .company-list h3{
+    margin-bottom: 20px;    
+    text-transform: uppercase;
+}
+
+.professional-career .company-list .company-name {
+    margin-top: auto;
+    padding-top: 20px;
+}
+
+.professional-career .company-list .company-name h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.professional-career .company-list .company-name p {
+    font-style: italic;
+    margin: 0;
+}
+
+footer{    
+    background-color: #180244;
+}
